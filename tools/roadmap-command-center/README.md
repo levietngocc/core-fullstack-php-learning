@@ -1,16 +1,56 @@
-# React + Vite
+# Roadmap Command Center
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React app for tracking the 30-day PHP/Laravel + React full-stack learning roadmap.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- ReactJS
+- Vite
+- Tailwind CSS
+- JavaScript
 
-## React Compiler
+## Run Locally
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+npm install
+npm run dev
+```
 
-## Expanding the ESLint configuration
+## Main Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```txt
+src/
+├── data/
+│   └── roadmap.js
+├── services/
+│   └── roadmapService.js
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+## Purpose
+
+This app is a supporting tool for managing the learning roadmap.
+
+It is not the final project.
+
+The final project will be placed in:
+
+```txt
+../../final-project/
+```
+
+## Notes
+
+The roadmap data is stored in:
+
+```txt
+src/data/roadmap.js
+```
+
+The roadmap logic is handled in:
+
+```txt
+src/services/roadmapService.js
+```

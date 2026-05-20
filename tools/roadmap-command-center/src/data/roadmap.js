@@ -8353,6 +8353,120 @@ function applyJuniorCompetitiveUpgrades(roadmap) {
     ],
   };
 }
+const day29 = {
+  id: "day-29",
+  phaseId: "week-4",
+  day: "Day 29",
+  title: "Laravel Mail + Notification + Broadcasting",
+  status: "not-started",
+  difficulty: "Hard",
+  duration: "08:00 - 20:30",
+  hook: "Build mail, notification, and realtime broadcasting features for a production-style Laravel app.",
+  perspectives: [],
+  methods: {},
+  goal: [
+    "Send mail with Laravel Mail.",
+    "Create database notifications.",
+    "Understand broadcasting with Pusher/Soketi.",
+    "Connect notification flow with React frontend.",
+  ],
+  timeBlocks: [
+    {
+      id: "day-29-block-1",
+      time: "08:00 - 10:30",
+      label: "Laravel Mail",
+      description: "Setup mail config and send basic transactional emails.",
+      type: "deep",
+      tasks: [
+        "Configure Mailtrap or SMTP in .env.",
+        "Create a Mailable class.",
+        "Send a test email.",
+        "Add mail trigger from a service layer.",
+      ],
+      output: ["Mail can be sent from Laravel."],
+    },
+    {
+      id: "day-29-block-2",
+      time: "13:30 - 17:45",
+      label: "Notification + Broadcasting",
+      description:
+        "Create notification flow and prepare realtime event broadcasting.",
+      type: "practice",
+      tasks: [
+        "Create database notification.",
+        "Store notification for user.",
+        "Create broadcast event.",
+        "Prepare frontend listener plan.",
+      ],
+      output: ["Notification flow is documented and partially implemented."],
+    },
+  ],
+  checklist: [
+    "Mail config works.",
+    "Mailable class created.",
+    "Database notification created.",
+    "Broadcasting flow understood.",
+  ],
+  benchmark:
+    "Can explain how Laravel Mail, Notification, and Broadcasting fit into a real full-stack app.",
+};
+
+const day30 = {
+  id: "day-30",
+  phaseId: "week-4",
+  day: "Day 30",
+  title: "Final Ship — Docs, Polish, Demo, Interview Story",
+  status: "not-started",
+  difficulty: "Boss Fight",
+  duration: "08:00 - 20:30",
+  hook: "Final day: polish the project, write docs, prepare demo, and lock the interview story.",
+  perspectives: [],
+  methods: {},
+  goal: [
+    "Finish README and API docs.",
+    "Add final polish to frontend and backend.",
+    "Prepare demo script.",
+    "Write project interview story.",
+  ],
+  timeBlocks: [
+    {
+      id: "day-30-block-1",
+      time: "08:00 - 10:30",
+      label: "Docs + API Documentation",
+      description: "Make the project readable for reviewers and recruiters.",
+      type: "deep",
+      tasks: [
+        "Polish README.",
+        "Document setup steps.",
+        "Document API endpoints.",
+        "Add screenshots or demo notes.",
+      ],
+      output: ["README and API docs are usable."],
+    },
+    {
+      id: "day-30-block-2",
+      time: "13:30 - 17:45",
+      label: "Final Polish + Demo",
+      description: "Prepare final project presentation and interview story.",
+      type: "practice",
+      tasks: [
+        "Fix obvious UI/UX issues.",
+        "Check backend errors.",
+        "Prepare demo script.",
+        "Write 5-minute project explanation.",
+      ],
+      output: ["Project is ready to show."],
+    },
+  ],
+  checklist: [
+    "README completed.",
+    "API docs completed.",
+    "Demo script written.",
+    "Interview story prepared.",
+  ],
+  benchmark:
+    "Can present the final project clearly as a junior Laravel/React candidate.",
+};
 function applyRoadmapSupplement(roadmap) {
   const appendUnique = (arr = [], items = []) => {
     const existing = new Set(arr);
@@ -8431,21 +8545,11 @@ function applyRoadmapSupplement(roadmap) {
   if (week4) {
     week4.title = "Docker + Deploy + Junior Interview + Mail + Final Ship";
   }
-
-  if (
-    typeof day29 !== "undefined" &&
-    !roadmap.days.some((d) => d.id === "day-29")
-  ) {
-    roadmap.days.push(day29);
+  for (const extraDay of [day29, day30]) {
+    if (!roadmap.days.some((d) => d.id === extraDay.id)) {
+      roadmap.days.push(extraDay);
+    }
   }
-
-  if (
-    typeof day30 !== "undefined" &&
-    !roadmap.days.some((d) => d.id === "day-30")
-  ) {
-    roadmap.days.push(day30);
-  }
-
   roadmap.meta = {
     ...(roadmap.meta || {}),
     totalDays: 30,

@@ -1,0 +1,55 @@
+# Core Fullstack PHP Learning
+
+![Roadmap Banner](docs/images/banner.png)
+
+> 30-day learning repository for rebuilding fullstack foundations with PHP, Laravel, React, SQL, Git, Docker, testing, deployment, and interview preparation.
+
+<p align="center">
+  <img src="https://img.shields.io/badge/PHP-Core%20%2B%20Laravel-blueviolet" />
+  <img src="https://img.shields.io/badge/React-Frontend-61DAFB" />
+  <img src="https://img.shields.io/badge/MySQL-Database-orange" />
+  <img src="https://img.shields.io/badge/Docker-DevOps-2496ED" />
+  <img src="https://img.shields.io/badge/Status-In%20Progress-brightgreen" />
+</p>
+
+---
+
+## About This Repository
+
+This repository tracks my 30-day fullstack learning roadmap focused on becoming job-ready as a junior PHP/Laravel + React developer.
+
+The goal is not only to finish tutorials, but to build real output every day:
+
+- runnable code
+- clean Git history
+- notes and error logs
+- README documentation
+- practical backend/frontend features
+- final fullstack project for portfolio
+
+---
+
+## Main Stack
+
+| Area | Technology |
+|---|---|
+| Backend | PHP, Laravel |
+| Frontend | ReactJS, TypeScript |
+| Database | MySQL, SQL, PDO, Eloquent |
+| Tools | Git, Docker, Postman |
+| Quality | Testing, PHPStan, API docs |
+| Deployment | Docker, CI/CD, production checklist |
+
+---
+
+## Repository Structure
+
+```txt
+core-fullstack-php-learning/
+├── tools/
+│   └── roadmap-command-center/
+├── days/
+│   ├── day-01-php-core/
+│   ├── day-02-oop-solid/
+│   ├── day-03-sql-pdo-docker/
+│ 

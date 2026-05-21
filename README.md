@@ -1,66 +1,130 @@
-# Core Fullstack PHP Learning
+<div align="center">
 
-<p align="center">
-  <img src="docs/images/banner.png" alt="Core Fullstack PHP Learning Banner" width="100%" />
-</p>
+# 🚀 Core Fullstack PHP Learning
 
-<h1 align="center">Core Fullstack PHP Learning</h1>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=6C63FF&center=true&vCenter=true&width=850&lines=30-Day+Fullstack+Rebuild+%E2%80%94+PHP+%2F+Laravel+%2F+React;Output-first.+Evidence-driven.+Production+mindset.;Build+it.+Break+it.+Fix+it.+Ship+it." alt="Typing SVG" />
 
-<p align="center">
-  30-day rebuild roadmap for PHP, Laravel, React, SQL, Git, Docker, testing, deployment, and junior fullstack job preparation.
-</p>
+<br/>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/PHP-Core%20Foundation-777BB4?style=for-the-badge&logo=php&logoColor=white" />
-  <img src="https://img.shields.io/badge/Laravel-API%20Backend-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-Frontend-61DAFB?style=for-the-badge&logo=react&logoColor=111111" />
-  <img src="https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-DevOps-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-</p>
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Pop!__OS-48B9C7?style=for-the-badge&logo=popos&logoColor=white)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-In%20Progress-brightgreen?style=flat-square" />
-  <img src="https://img.shields.io/badge/Mode-Hard%20Mode-red?style=flat-square" />
-  <img src="https://img.shields.io/badge/Goal-Junior%20Fullstack%20Ready-blue?style=flat-square" />
-</p>
+<br/>
+
+![Status](https://img.shields.io/badge/Status-Completed-22c55e?style=flat-square)
+![Days](https://img.shields.io/badge/Days-30%2F30-6C63FF?style=flat-square)
+![Mode](https://img.shields.io/badge/Mode-Output--first-f59e0b?style=flat-square)
+![Goal](https://img.shields.io/badge/Goal-Junior%20Fullstack%20Developer-3b82f6?style=flat-square)
+
+</div>
 
 ---
 
 ## Overview
 
-This repository is my 30-day fullstack learning system.
+**Core Fullstack PHP Learning** is a 30-day fullstack rebuild roadmap focused on PHP Core, Laravel, ReactJS, SQL, Docker, testing, deployment, and junior developer readiness.
 
-The main goal is not to collect tutorials.  
-The goal is to build real output every day:
+This repository is not a tutorial dump.
 
-- runnable code
-- meaningful Git commits
-- notes and error logs
-- README documentation
-- API examples
-- testing evidence
-- final fullstack project
-- interview-ready explanations
+It is a structured self-learning system where every day produces real output:
 
-This repo follows one simple rule:
+```txt
+runnable code
+--- notes
+--- terminal evidence
+--- Git commits
+--- debugging records
+--- reflection
+```
 
-> Build it. Run it. Break it. Fix it. Commit it. Explain it.
+The goal of this repository is to prove one thing clearly:
+
+```txt
+I can rebuild fundamentals from zero
+--- connect them to real fullstack work
+--- ship runnable output
+--- explain what I built like a developer
+```
 
 ---
 
-## Main Goal
+## Why This Repository Exists
 
-Become job-ready for junior/fresher fullstack roles using:
+Many beginners jump straight into frameworks and only learn commands.
 
-| Area | Main Focus |
-|---|---|
-| Backend | PHP, Laravel, REST API |
-| Frontend | ReactJS, TypeScript |
-| Database | MySQL, SQL, PDO, Eloquent |
-| Dev Tools | Git, GitHub, Postman, Docker |
-| Quality | Testing, PHPStan, README, API docs |
-| Production | Docker, deploy checklist, CI/CD basics |
-| Interview | Project walkthrough, technical Q&A, trade-off explanation |
+This roadmap goes the opposite direction.
+
+Before using Laravel, I rebuilt PHP Core, OOP, SQL, security, REST API design, and backend flow by hand.
+
+Before building fullstack features, I practiced API contracts, validation, authentication, database relationships, testing, Docker, deployment, and documentation.
+
+The learning flow behind this repository:
+
+```txt
+Understand the concept
+--- map it to real developer tasks
+--- build a small runnable example
+--- build a harder exercise
+--- record evidence
+--- commit progress
+--- reflect and explain
+```
+
+---
+
+## Learning Principles
+
+| Principle     | Meaning                                                                        |
+| ------------- | ------------------------------------------------------------------------------ |
+| Mapping       | Understand where a concept belongs in real backend/frontend flow before coding |
+| Ultralearning | Spend most time building, testing, debugging, and explaining                   |
+| Goldilocks    | Keep exercises slightly harder than current level, but still shippable         |
+| Hard Mode     | No fake progress, no passive watching, no final dump commit                    |
+
+Hard Mode rules:
+
+```txt
+No output = block fail
+No evidence = block incomplete
+No commit = progress not recorded
+No reflection = knowledge not locked
+```
+
+---
+
+## Stack
+
+| Area         | Tools / Topics                                                         |
+| ------------ | ---------------------------------------------------------------------- |
+| Backend Core | PHP 8.4, CLI scripts, OOP, SOLID, PDO                                  |
+| Framework    | Laravel, REST API, Eloquent, Service Layer, Form Request, API Resource |
+| Frontend     | ReactJS, TypeScript, React Query, Zustand, Axios, Router               |
+| Database     | MySQL, SQL, indexing, transactions, relationships                      |
+| Testing      | PHPUnit, Pest, feature tests, unit tests, manual API test evidence     |
+| DevOps       | Docker, Docker Compose, CI/CD basics, deployment checklist             |
+| Workflow     | Git, conventional commits, evidence logs, README-driven learning       |
+| OS           | Pop!\_OS / Linux terminal-first workflow                               |
+
+---
+
+## Verified Local Environment
+
+```txt
+PHP             : PHP 8.4.x
+Composer        : Composer 2.x
+Node.js         : Node.js 22.x
+npm             : npm 10.x
+Git             : Git 2.x
+Docker          : Docker 29.x
+Docker Compose  : Docker Compose 5.x
+OS              : Pop!_OS / Linux
+Runtime style   : Terminal-first, no XAMPP, no Laragon
+```
 
 ---
 
@@ -68,351 +132,407 @@ Become job-ready for junior/fresher fullstack roles using:
 
 ```txt
 core-fullstack-php-learning/
-├── README.md
-├── .gitignore
-├── docs/
-│   └── images/
-│       └── banner.png
-├── tools/
-│   └── roadmap-command-center/
-├── days/
-│   ├── day-01-php-core/
-│   ├── day-02-oop-solid/
-│   ├── day-03-sql-pdo-docker/
-│   ├── day-04-security-rest-auth/
-│   ├── day-05-php-hardmode-project/
-│   ├── day-06-laravel-core/
-│   ├── day-07-laravel-api-testing-blog/
-│   ├── day-08-typescript-react-api/
-│   ├── day-09-react-query-zustand-auth/
-│   ├── day-10-axios-router-auth-flow/
-│   ├── day-11-ui-system-admin/
-│   ├── day-12-fullstack-admin-day-1/
-│   ├── day-13-fullstack-workflow-role-tests/
-│   ├── day-14-fullstack-stabilize-ship/
-│   ├── day-15-laravel-architecture-clean-boundaries/
-│   ├── day-16-testing-hardmode/
-│   ├── day-17-docker-fullstack/
-│   ├── day-18-queues-cache-events/
-│   ├── day-19-import-export-files-reports/
-│   ├── day-20-security-performance-observability/
-│   ├── day-21-production-boss-refactor-demo/
-│   ├── day-22-ci-cd-git-workflow/
-│   ├── day-23-deployment-hardmode/
-│   ├── day-24-company-mock-task-feature/
-│   ├── day-25-company-mock-task-bugfix-review/
-│   ├── day-26-portfolio-packaging/
-│   ├── day-27-interview-war/
-│   ├── day-28-final-boss-demo-apply/
-│   ├── day-29-mail-notification-broadcasting/
-│   └── day-30-final-ship-polish/
-└── final-project/
-    ├── backend/
-    ├── frontend/
-    ├── docs/
-    ├── postman/
-    └── screenshots/
+|
+|--- README.md
+|
+|--- days/
+|    |
+|    |--- day-01-php-core/
+|    |--- day-02-oop-solid/
+|    |--- day-03-sql-pdo-docker/
+|    |--- day-04-security-rest-auth/
+|    |--- ...
+|    |--- day-30-final-ship-polish/
+|
+|--- final-project/
+|    |
+|    |--- backend/
+|    |--- frontend/
+|    |--- docs/
+|    |--- postman/
+|    |--- screenshots/
+|
+|--- tools/
+     |
+     |--- roadmap-command-center/
 ```
 
 ---
 
-## Roadmap Phases
+## Daily Folder Structure
 
-```mermaid
-flowchart LR
-    A[Week 1<br/>PHP Core + OOP + SQL + Laravel Foundation]
-    B[Week 2<br/>React + TypeScript + Laravel API]
-    C[Week 3<br/>Production + Testing + Refactor]
-    D[Week 4<br/>Docker + Deploy + Interview + Apply]
+Each learning day is organized by blocks.
 
-    A --> B --> C --> D
+```txt
+days/day-NN-topic/
+|
+|--- README.md
+|    Day summary, goals, commands, outputs, reflection
+|
+|--- blocks/
+|    |
+|    |--- 01-mapping/
+|    |    |
+|    |    |--- notes.md
+|    |
+|    |--- 02-topic-name/
+|    |    |
+|    |    |--- notes.md
+|    |    |--- examples/
+|    |    |--- exercises/
+|    |
+|    |--- 03-topic-name/
+|         |
+|         |--- notes.md
+|         |--- examples/
+|         |--- exercises/
+|
+|--- evidence/
+|    |
+|    |--- terminal-outputs.md
+|
+|--- storage/
+     |
+     |--- data/
+     |--- logs/
 ```
 
----
+The `notes.md` file inside each block explains:
 
-## 30-Day Learning Roadmap
-
-| Day | Folder | Focus | Status |
-|---:|---|---|---|
-| 01 | `day-01-php-core` | PHP core, CLI, variables, types, control flow, arrays | Planned |
-| 02 | `day-02-oop-solid` | OOP, encapsulation, interface, abstract, SOLID | Planned |
-| 03 | `day-03-sql-pdo-docker` | SQL, MySQL Docker, PDO, index, transaction | Planned |
-| 04 | `day-04-security-rest-auth` | Security, REST API, auth, token, validation | Planned |
-| 05 | `day-05-php-hardmode-project` | Pure PHP API project, service/repository, docs | Planned |
-| 06 | `day-06-laravel-core` | Laravel route, controller, Eloquent, container | Planned |
-| 07 | `day-07-laravel-api-testing-blog` | Laravel API, feature tests, API docs | Planned |
-| 08 | `day-08-typescript-react-api` | TypeScript mindset for React + Laravel API | Planned |
-| 09 | `day-09-react-query-zustand-auth` | Server state, client state, auth store | Planned |
-| 10 | `day-10-axios-router-auth-flow` | Axios, router, protected routes, auth flow | Planned |
-| 11 | `day-11-ui-system-admin` | UI system, admin layout, reusable components | Planned |
-| 12 | `day-12-fullstack-admin-day-1` | Laravel + React admin integration | Planned |
-| 13 | `day-13-fullstack-workflow-role-tests` | Roles, workflow, testing, access control | Planned |
-| 14 | `day-14-fullstack-stabilize-ship` | Stabilize, bugfix, demo, ship week 2 | Planned |
-| 15 | `day-15-laravel-architecture-clean-boundaries` | Architecture, services, clean boundaries | Planned |
-| 16 | `day-16-testing-hardmode` | Unit tests, feature tests, test strategy | Planned |
-| 17 | `day-17-docker-fullstack` | Dockerize backend, frontend, database | Planned |
-| 18 | `day-18-queues-cache-events` | Queue, cache, events, notifications base | Planned |
-| 19 | `day-19-import-export-files-reports` | Import/export, file handling, reports | Planned |
-| 20 | `day-20-security-performance-observability` | Security audit, performance, logs | Planned |
-| 21 | `day-21-production-boss-refactor-demo` | Production refactor and demo readiness | Planned |
-| 22 | `day-22-ci-cd-git-workflow` | Git workflow, branches, PR mindset, CI/CD | Planned |
-| 23 | `day-23-deployment-hardmode` | Deployment, environment, production checklist | Planned |
-| 24 | `day-24-company-mock-task-feature` | Company-style feature task | Planned |
-| 25 | `day-25-company-mock-task-bugfix-review` | Bugfix, review, refactor, pull request style | Planned |
-| 26 | `day-26-portfolio-packaging` | Portfolio docs, screenshots, project story | Planned |
-| 27 | `day-27-interview-war` | Mock interview, Q&A, project walkthrough | Planned |
-| 28 | `day-28-final-boss-demo-apply` | Final demo, apply package, next roadmap | Planned |
-| 29 | `day-29-mail-notification-broadcasting` | Mail, notification, broadcasting extension | Planned |
-| 30 | `day-30-final-ship-polish` | Final polish, README, screenshots, release | Planned |
-
----
-
-## Daily Definition of Done
-
-A day is not done just because the code exists.
-
-Each day must have:
-
-- [ ] code that runs on my machine
-- [ ] clear README or notes
-- [ ] errors and fixes recorded
-- [ ] meaningful commit messages
-- [ ] output evidence: screenshot, curl response, test result, or demo
-- [ ] short reflection
-- [ ] at least one interview-style explanation
-
-No fake progress.  
-No random folder dump.  
-No `update` commit messages.
-
----
-
-## Daily Workflow
-
-```bash
-cd ~/Code/core-fullstack-php-learning
-
-git status
-git add .
-git commit -m "day xx topic name"
-git push
-```
-
-Good commit examples:
-
-```bash
-git commit -m "day 01 practice php variables and validation"
-git commit -m "day 03 implement pdo transaction and sql reports"
-git commit -m "day 06 build laravel project crud with service layer"
-git commit -m "day 09 add react query hooks for project api"
-git commit -m "docs: add day 14 fullstack demo notes"
-```
-
-Bad commit examples:
-
-```bash
-git commit -m "update"
-git commit -m "fix"
-git commit -m "code"
-git commit -m "abc"
+```txt
+what the block teaches
+--- why it matters
+--- which examples belong there
+--- which exercise must be completed
+--- what output proves the block is done
+--- what interview explanation should be remembered
 ```
 
 ---
 
 ## Roadmap Command Center
 
-The folder below is a helper tool, not a learning day:
+This repository includes a small React/Vite helper app:
 
 ```txt
 tools/roadmap-command-center/
 ```
 
-It is planned as a React/Vite dashboard for rendering the roadmap data visually.
-
-### Purpose
-
-The Roadmap Command Center will help track:
-
-- phases
-- days
-- current selected day
-- progress per phase
-- previous/next day navigation
-- daily time blocks
-- checklist
-- benchmark
-- status: `doing`, `done`, `not-started`
-
-### Service Layer
-
-The roadmap service is designed to keep data logic away from UI components.
+Purpose:
 
 ```txt
-src/services/roadmapService.js
+view the 30-day roadmap
+--- group days by phase
+--- track doing/done/not-started status
+--- calculate phase progress
+--- remember selected day using localStorage
 ```
 
-Core functions:
+This is not the final project.
 
-| Function | Purpose |
-|---|---|
-| `getRoadmap()` | Return the whole roadmap object |
-| `getDays()` | Return all learning days |
-| `getPhases()` | Return all roadmap phases |
-| `getPhasesWithDays()` | Attach days to each phase and calculate progress |
-| `getDayById(dayId)` | Find one day by id |
-| `getDayIndex(dayId)` | Find day index for navigation |
-| `getAdjacentDays(dayId)` | Return previous and next day |
-| `getInitialDayId()` | Load saved day from localStorage, fallback to doing day, then first day |
-| `saveSelectedDay(dayId)` | Save selected day to localStorage |
-
-### LocalStorage Key
-
-```txt
-selected-roadmap-day
-```
-
-The dashboard can remember the last selected day after browser reload.
-
-### Data Flow
-
-```mermaid
-flowchart TD
-    A[src/data/roadmap.js] --> B[src/services/roadmapService.js]
-    B --> C[React Hooks]
-    C --> D[Pages]
-    D --> E[Components]
-    E --> F[UI: Phase List, Day Detail, Checklist, Progress]
-    B --> G[localStorage: selected-roadmap-day]
-```
-
-### Why Service Layer?
-
-Because components should not be full of data-processing logic.
-
-Bad idea:
-
-```txt
-Component calculates phase progress, filters days, handles localStorage, finds next day, and renders UI.
-```
-
-Better idea:
-
-```txt
-Data layer stores roadmap.
-Service layer processes roadmap.
-Hook manages state.
-Component renders UI.
-```
-
-This makes the dashboard easier to maintain and easier to replace with a Laravel API later.
+It is a small internal learning dashboard used to keep the roadmap visible, organized, and measurable.
 
 ---
 
-## Future Fullstack Upgrade
+## Roadmap Overview
 
-The current roadmap command center can start with mock data.
+### Week 1 — PHP Core, OOP, SQL, Laravel Foundation
 
-Later it can become a real fullstack app:
+| Day | Focus                                                                       | Status  |
+| --: | --------------------------------------------------------------------------- | ------- |
+|  01 | PHP Core Mapping, CLI, variables, types, control flow, arrays, JSON, logger | ✅ Done |
+|  02 | OOP, encapsulation, interfaces, abstract classes, SOLID principles          | ✅ Done |
+|  03 | SQL, MySQL in Docker, PDO, indexing, transactions                           | ✅ Done |
+|  04 | Security, REST API design, authentication, validation                       | ✅ Done |
+|  05 | Pure PHP hard-mode project with service/repository pattern                  | ✅ Done |
 
-```mermaid
-flowchart LR
-    A[React Dashboard] --> B[Laravel API]
-    B --> C[MySQL Database]
-    B --> D[Auth]
-    B --> E[Progress Tracking]
-    B --> F[Roadmap Editor]
-```
+### Week 2 — Laravel API, React, Fullstack Integration
 
-Possible API endpoints:
+| Day | Focus                                                          | Status  |
+| --: | -------------------------------------------------------------- | ------- |
+|  06 | Laravel routing, controllers, Eloquent, service container      | ✅ Done |
+|  07 | Laravel REST API, PHPUnit/Pest testing, blog API build         | ✅ Done |
+|  08 | React consuming a real Laravel API                             | ✅ Done |
+|  09 | React Query, Zustand state management, authentication state    | ✅ Done |
+|  10 | Axios interceptors, React Router, protected routes             | ✅ Done |
+|  11 | UI system design, admin layout                                 | ✅ Done |
+|  12 | Fullstack admin panel — day 1                                  | ✅ Done |
+|  13 | Role-based access control, workflow integration, feature tests | ✅ Done |
+|  14 | Stabilize and ship week 2                                      | ✅ Done |
+
+### Week 3 — Architecture, Testing, Production Mindset
+
+| Day | Focus                                                       | Status  |
+| --: | ----------------------------------------------------------- | ------- |
+|  15 | Laravel clean architecture, service boundaries              | ✅ Done |
+|  16 | Testing hard mode, unit tests, feature tests, quality gates | ✅ Done |
+|  17 | Docker fullstack stack                                      | ✅ Done |
+|  18 | Queues, cache, events, listeners                            | ✅ Done |
+|  19 | File import/export, reports, generated files                | ✅ Done |
+|  20 | Security hardening, performance, observability              | ✅ Done |
+|  21 | Production refactor, code review, demo build                | ✅ Done |
+
+### Week 4 — Deploy, Portfolio, Interview, Apply
+
+| Day | Focus                                              | Status  |
+| --: | -------------------------------------------------- | ------- |
+|  22 | CI/CD pipelines, Git branch workflow               | ✅ Done |
+|  23 | Deployment hard mode, server checklist             | ✅ Done |
+|  24 | Company-style mock feature task                    | ✅ Done |
+|  25 | Company-style bugfix, code review, refactor        | ✅ Done |
+|  26 | Portfolio packaging, README, screenshots, API docs | ✅ Done |
+|  27 | Mock interview, technical Q&A, project walkthrough | ✅ Done |
+|  28 | Final demo build, job application package          | ✅ Done |
+|  29 | Mail, notifications, broadcasting                  | ✅ Done |
+|  30 | Final polish, public release, README finalization  | ✅ Done |
+
+---
+
+## What Was Built Across 30 Days
 
 ```txt
-GET    /api/roadmap
-GET    /api/phases
-GET    /api/days
-GET    /api/days/{id}
-PATCH  /api/days/{id}/status
-POST   /api/days/{id}/reflection
+PHP CLI scripts
+--- type inspection
+--- string processing
+--- validation logic
+--- array reports
+--- JSON storage
+--- logger
+
+OOP labs
+--- encapsulation
+--- interfaces
+--- abstract classes
+--- service/repository pattern
+--- SOLID refactor
+
+Database labs
+--- MySQL Docker setup
+--- schema design
+--- JOIN queries
+--- indexes
+--- transactions
+--- PDO repositories
+
+Security/API labs
+--- SQL Injection demo and fix
+--- XSS demo and fix
+--- password hashing
+--- token authentication
+--- REST API status codes
+--- validation error responses
+
+Laravel API
+--- routing
+--- controllers
+--- Eloquent
+--- Form Requests
+--- API Resources
+--- service layer
+--- testing
+
+React frontend
+--- API consumption
+--- auth flow
+--- React Query
+--- Zustand
+--- protected routes
+--- admin UI
+
+Production workflow
+--- Docker
+--- CI/CD notes
+--- deployment checklist
+--- test evidence
+--- README packaging
+--- portfolio preparation
 ```
 
 ---
 
-## Final Project Target
+## Evidence Standard
 
-The final project will be a fullstack Laravel + React application.
+Every completed block produces evidence.
+
+| Evidence Type   | Example                                   |
+| --------------- | ----------------------------------------- |
+| Terminal output | PHP script output, command result         |
+| Git history     | `git log --oneline`                       |
+| Test result     | PHPUnit, Pest, Vitest, manual test output |
+| API output      | curl, Postman response                    |
+| UI screenshot   | feature demo, admin screen, error state   |
+| Documentation   | README, notes.md, API docs                |
+| Debug note      | bug, cause, fix                           |
+| Reflection      | what was learned, what still felt weak    |
+
+Evidence is stored inside each day:
+
+```txt
+days/day-NN-topic/evidence/
+```
+
+---
+
+## Commit Standard
+
+All commits follow clear conventional messages.
+
+Good:
+
+```bash
+git commit -m "docs: add day 1 backend mapping notes"
+git commit -m "feat: add php cli types examples"
+git commit -m "feat: implement student report with array functions"
+git commit -m "fix: handle missing json file in logger exercise"
+git commit -m "docs: add day 1 reflection"
+```
+
+Bad:
+
+```bash
+git commit -m "update"
+git commit -m "fix"
+git commit -m "abc"
+git commit -m "done"
+```
+
+The commit history is used as a visible learning and working timeline.
+
+---
+
+## Definition of Done
+
+A block is done only when:
+
+```txt
+[ ] notes.md explains the concept clearly
+[ ] examples run if the block has examples
+[ ] exercises run if the block has exercises
+[ ] terminal output is recorded
+[ ] bugs are noted if they happened
+[ ] commit is created
+[ ] self-review is written when needed
+```
+
+A day is done only when:
+
+```txt
+[ ] required blocks are completed
+[ ] day README is updated
+[ ] evidence exists
+[ ] git history is clean
+[ ] reflection exists
+[ ] weak points are listed for review
+```
+
+---
+
+## Final Project
+
+The capstone project lives in:
 
 ```txt
 final-project/
-├── backend/       # Laravel REST API
-├── frontend/      # React frontend
-├── docs/          # architecture, setup, notes
-├── postman/       # API collection
-└── screenshots/   # UI/API demo images
 ```
 
-Expected features:
-
-- authentication
-- role-based access control
-- CRUD features
-- validation
-- filtering/search/pagination
-- API resources
-- testing
-- Docker setup
-- API documentation
-- deployment notes
-
----
-
-## Screenshots
-
-> Screenshots will be added when UI/API output is ready.
-
-<p align="center">
-  <img src="final-project/screenshots/demo.png" alt="Final Project Demo" width="90%" />
-</p>
-
----
-
-## Evidence Checklist
-
-Each serious project day should include at least one evidence item:
-
-| Evidence Type | Example |
-|---|---|
-| Git history | `git log --oneline` |
-| API output | curl response or Postman screenshot |
-| Test output | `php artisan test`, `npm test` |
-| UI screenshot | page screenshot in `screenshots/` |
-| Docs | setup guide, API docs, architecture notes |
-| Reflection | what went wrong, what got fixed |
-
----
-
-## Current Progress
+Planned structure:
 
 ```txt
-Progress: Day 00 / 30
-Mode: Rebuild from foundations
-Main stack: PHP/Laravel + React
-Goal: Junior Fullstack Developer readiness
+final-project/
+|
+|--- backend/
+|    Laravel REST API
+|
+|--- frontend/
+|    React SPA
+|
+|--- docs/
+|    architecture, API documentation, decisions
+|
+|--- postman/
+|    API collection
+|
+|--- screenshots/
+     UI and evidence
 ```
+
+Core features:
+
+```txt
+authentication
+--- role-based access control
+--- CRUD with validation
+--- filtering, search, pagination
+--- file upload/import/export
+--- automated tests
+--- Docker setup
+--- deployment notes
+```
+
+The final project is designed to be explained in an interview:
+
+```txt
+problem
+--- architecture
+--- database design
+--- API design
+--- frontend data flow
+--- auth and role handling
+--- tests
+--- trade-offs
+--- known limitations
+```
+
+---
+
+## What Recruiters / Reviewers Should Look For
+
+This repository is meant to show:
+
+```txt
+I can learn with structure.
+I can work from fundamentals to framework.
+I can write notes that explain decisions.
+I can produce runnable output, not just screenshots.
+I can use Git as a learning and work history tool.
+I can debug and record what broke.
+I can connect PHP core concepts to Laravel and fullstack work.
+```
+
+This is a learning repository, but it is built with a production mindset.
 
 ---
 
 ## Author
 
-**Ngoc Le Viet**
+<div align="center">
+
+**ngocambition**
+
+Junior Fullstack Developer
+PHP · Laravel · ReactJS · SQL · Docker · Linux
+
+<br/>
+
+![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![Laravel](https://img.shields.io/badge/-Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/-Pop!_OS-48B9C7?style=flat-square&logo=popos&logoColor=white)
 
 ```txt
-GitHub: levietngocc
-Focus: PHP, Laravel, ReactJS, SQL, Fullstack Web Development
-OS: Linux / Pop!_OS
-Learning Mode: Hard mode, output-first, production mindset
+Mode    : Self-directed · Output-first · Evidence-driven
+Goal    : Junior Fullstack Developer
+Focus   : PHP/Laravel + React + production mindset
 ```
+
+</div>
 
 ---
 
-## Motto
+<div align="center">
 
-> Learn the fundamentals. Build real output. Commit evidence. Explain like a developer.
+_Learn the fundamentals. Build real output. Record evidence. Explain like a developer._
+
+</div>
